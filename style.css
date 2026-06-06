@@ -1,0 +1,142 @@
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+    text-align: center;
+}
+
+.header {
+    background: #1e88e5;
+    color: rgb(206, 199, 199);
+    padding: 20px;
+}
+
+.logo {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background: rgb(212, 204, 204);
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.price {
+    color: green;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+.whatsapp {
+    background: #25D366;
+    color: white;
+}
+
+button:hover {
+    background: #16a34a
+}
+
+.checkout {
+    background: grey;
+    width: 300px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.checkout input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+input, select {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer {
+    background: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+footer p {
+    margin: 8px 0;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .product
+.dark-mode .checkout
+.dark-mode .cart {
+    background-color: #222;
+    color: white;
+}
+
+.cart {
+    background: white;
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0,1)
+}
